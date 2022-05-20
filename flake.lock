@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "envfs": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "utils": "utils"
+      },
+      "locked": {
+        "lastModified": 1646734227,
+        "narHash": "sha256-fJ7glrf7sWHRMm7L8cBNWXQdoekOVJ699xPJqJxWsDw=",
+        "owner": "Mic92",
+        "repo": "envfs",
+        "rev": "b0f6c7e4906e9ac6f747a8d991fa8bb58e68f7f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Mic92",
+        "repo": "envfs",
+        "type": "github"
+      }
+    },
+    "nixlib": {
+      "locked": {
+        "lastModified": 1636849918,
+        "narHash": "sha256-nzUK6dPcTmNVrgTAC1EOybSMsrcx+QrVPyqRdyKLkjA=",
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "rev": "28a5b0557f14124608db68d3ee1f77e9329e9dd5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "type": "github"
+      }
+    },
+    "nixosgen": {
+      "inputs": {
+        "nixlib": "nixlib",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1652457860,
+        "narHash": "sha256-fZZRON0geucxAFCEamzuZ5z4oj7xJj+6C9HWm1JY2n0=",
+        "owner": "nix-community",
+        "repo": "nixos-generators",
+        "rev": "11f97f971383d036159edd9221f1b3a60ed78c4f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixos-generators",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1652659998,
+        "narHash": "sha256-FqNrXC1EE6U2RACwXBlsAvg1lqQGLYpuYb6+W3DL9vA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "1d7db1b9e4cf1ee075a9f52e5c36f7b9f4207502",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "envfs": "envfs",
+        "nixosgen": "nixosgen",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1610051610,
+        "narHash": "sha256-U9rPz/usA1/Aohhk7Cmc2gBrEEKRzcW4nwPWMPwja4Y=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3982c9903e93927c2164caa727cd3f6a0e6d14cc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
